@@ -1,0 +1,16 @@
+.btn-register:hover {
+    border: 1px solid white !important;
+    font-size: 12px;
+}
+
+.btn-register:hover span.arrow{
+    right: 20px;
+}
+.card:hover {
+    border: 1px solid green;
+    cursor: pointer;
+}
+#Content:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+}

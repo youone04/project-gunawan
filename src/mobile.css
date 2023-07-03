@@ -1,0 +1,49 @@
+@media (max-width: 1199px) {
+    .text-title {
+        line-height: 1;
+    }
+    .card-jumbotron{
+        padding-bottom: 20px;
+    }
+
+    .card-comunity{
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 991px) {
+    .burger-menu{
+        display: block !important;
+    }
+    .navbar-mod{
+        display: none !important;
+    }
+}
+@media (max-width: 954px) {
+.unlock-mod{
+    width: 100%;
+}
+ .unlock-card{
+    padding-bottom: 20px;
+ }
+ .achivement-mod{
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+    .text-achivements{
+        text-align: center;
+    }
+    .card-text-jumbotron{
+        margin-top: 0;
+    }
+    .img-customer{
+        width: 100%;
+      }
+}
+
+@media (max-width: 575px) {
+.card-komunity{
+    margin-top: 15px !important;
+}
+}
