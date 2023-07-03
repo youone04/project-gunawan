@@ -2,48 +2,59 @@
     .text-title {
         line-height: 1;
     }
-    .card-jumbotron{
+
+    .card-jumbotron {
         padding-bottom: 20px;
     }
 
-    .card-comunity{
+    .card-comunity {
         margin-top: 90px;
     }
 }
 
 @media (max-width: 991px) {
-    .burger-menu{
+    .burger-menu {
         display: block !important;
     }
-    .navbar-mod{
+
+    .navbar-mod {
         display: none !important;
     }
+    .center-text {
+        width: 100%;
+    }
 }
+
 @media (max-width: 954px) {
-.unlock-mod{
-    width: 100%;
+    .unlock-mod {
+        width: 100%;
+    }
+
+    .unlock-card {
+        padding-bottom: 20px;
+    }
+
+    .achivement-mod {
+        width: 100%;
+    }
 }
- .unlock-card{
-    padding-bottom: 20px;
- }
- .achivement-mod{
-    width: 100%;
-  }
-}
+
 @media (max-width: 767px) {
-    .text-achivements{
+    .text-achivements {
         text-align: center;
     }
-    .card-text-jumbotron{
+
+    .card-text-jumbotron {
         margin-top: 0;
     }
-    .img-customer{
+
+    .img-customer {
         width: 100%;
-      }
+    }
 }
 
 @media (max-width: 575px) {
-.card-komunity{
-    margin-top: 15px !important;
-}
+    .card-komunity {
+        margin-top: 15px !important;
+    }
 }

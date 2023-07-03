@@ -4,7 +4,7 @@ const FooterTops = () => {
     return(
         <div data-aos="fade" style={{ backgroundColor: '#F5F7FA'}} className="pb-5">
             <Container>
-                <div className="text-center" style={{width:'50%', margin:'auto', fontWeight:'bold'}}>
+                <div className="text-center center-text" style={{fontWeight:'bold'}}>
                     <h1 className="pt-3">
                         Pellentesque suscipit fringilla libero eu.
                     </h1>

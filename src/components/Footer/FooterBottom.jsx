@@ -5,7 +5,7 @@ const FooterBottom = () => {
         <div data-aos="fade" style={{ backgroundColor: '#263238', color: 'white' }}>
             <Container>
                 <Row className="pt-5 pb-5">
-                    <Col className="d-flex justify-content-center" xs={4} sm={4} md={4} lg={4}>
+                    <Col className="d-flex justify-content-center" xs={6} sm={4} md={4} lg={4}>
                         <div>
                             <img src="/images/logo/footer/Logo.png" alt="footer" />
                             <div className="mt-5">
@@ -19,7 +19,7 @@ const FooterBottom = () => {
                         </div>
                     </Col>
 
-                    <Col className="d-flex justify-content-center" xs={4} sm={4} md={2} lg={2}>
+                    <Col className="d-flex justify-content-center" xs={6} sm={4} md={2} lg={2}>
                         <div>
                             <b>Company</b>
                             <ul className="mt-5" style={{ listStyle: 'none', padding: 0, lineHeight: '180%' }}>
@@ -33,7 +33,7 @@ const FooterBottom = () => {
 
                     </Col>
 
-                    <Col className="d-flex justify-content-center" xs={4} sm={4} md={2} lg={2}>
+                    <Col className="d-flex justify-content-center" xs={6} sm={4} md={2} lg={2}>
                         <div>
                             <b>Support</b>
                             <ul className="mt-5" style={{ listStyle: 'none', padding: 0, lineHeight: '180%' }}>
@@ -46,7 +46,7 @@ const FooterBottom = () => {
                         </div>
                     </Col>
 
-                    <Col className="d-flex justify-content-center" xs={12} sm={4} md={4} lg={4}>
+                    <Col className="d-flex justify-content-center" xs={6} sm={4} md={4} lg={4}>
                         <div>
                             <b>Stay up to date</b>
                             <div className="input-container mt-5">
