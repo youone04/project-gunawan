@@ -52,6 +52,17 @@
   color: #717171;
 }
 
+.card-clients{
+  box-shadow: -1px 3px 6px 0px rgb(0 0 0 / 24%);
+  -webkit-box-shadow: -1px 3px 6px 0px rgb(0 0 0 / 24%);
+  -moz-box-shadow: -1px 3px 6px 0px rgb(0 0 0 / 24%);
+  padding: 3px;
+  border-radius: 8px;
+}
+.card-clients:hover {
+  border: 1px solid green;
+  cursor: pointer;
+}
 .center-div {
   display: flex;
   justify-content: space-between;
@@ -63,7 +74,10 @@
   margin: auto;
   text-align: center;
 }
-
+.comunity-update-desc{
+  font-size: 14;
+  width: 60%;
+}
 .desc-text {
   color: #717171;
 }

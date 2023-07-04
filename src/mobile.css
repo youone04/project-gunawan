@@ -20,6 +20,7 @@
     .navbar-mod {
         display: none !important;
     }
+
     .center-text {
         width: 100%;
     }
@@ -51,10 +52,41 @@
     .img-customer {
         width: 100%;
     }
+
+    .comunity-update-desc {
+        width: 100%;
+    }
+
+    .desc-customers {
+        margin-top: 25px;
+    }
+    .card-clients{
+        margin-top: 25px;
+      }
+      
 }
 
 @media (max-width: 575px) {
     .card-komunity {
         margin-top: 15px !important;
+    }
+    .input-field.long {
+        width: 116px;
+        height: 30px;
+        border-radius: 8px;
+    }
+    .input-field.long::placeholder {
+        color: white;
+        font-size: 9px;
+        height: 15px;
+        padding-bottom: 30px;
+      
+      }
+      .icon {
+        position: absolute;
+        right: 8px;
+        top: 6px;
+        font-size: 15px;
+        transform: rotate(-45deg);
     }
 }

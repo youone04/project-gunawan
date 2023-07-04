@@ -7,13 +7,15 @@ const ComunityUpdate = () => {
                 <h3>
                     Caring is the new marketing
                 </h3>
-                <p style={{ width: '60%', margin: 'auto', fontSize: 14 }} className="desc-text">
+               <center>
+               <p className="desc-text comunity-update-desc">
                     The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.
                 </p>
+               </center>
             </div>
             <Row className="mt-5">
                 <Col className="d-flex justify-content-center">
-                    <div className="card-comunity" id="Wrapper" style={{ backgroundImage: `url('/images/image 18.png')` }}>
+                    <div className="card-comunitys" id="Wrapper" style={{ backgroundImage: `url('/images/image 18.png')` }}>
                         <div id="Content">
                             Creating Streamlined Safeguarding Processes with OneRen
                             <div className="mt-3">

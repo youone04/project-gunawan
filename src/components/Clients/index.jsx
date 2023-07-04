@@ -10,27 +10,27 @@ const Clienst = () => {
 
             <div className="row mt-5">
                 <div className="col-sm-12 col-md-2 d-flex justify-content-center">
-                <img width={'25%'} src="/images/logo/Logo (1).png" alt="logo" />
+                   <img className="card-clients" width={'25%'} src="/images/logo/Logo (1).png" alt="logo" />
                 </div>
 
                 <div className="col-sm-12 col-md-2 d-flex justify-content-center">
-                <img width={'25%'} src="/images/logo/Logo (2).png" alt="logo" />
+                <img className="card-clients" width={'25%'} src="/images/logo/Logo (2).png" alt="logo" />
                 </div>
 
                 <div className="col-sm-12 col-md-2 d-flex justify-content-center">
-                <img width={'25%'} src="/images/logo/Logo (3).png" alt="logo" />
+                <img className="card-clients" width={'25%'} src="/images/logo/Logo (3).png" alt="logo" />
                 </div>
 
                 <div className="col-sm-12 col-md-2 d-flex justify-content-center">
-                <img width={'25%'} src="/images/logo/Logo (4).png" alt="logo" />
+                <img className="card-clients" width={'25%'} src="/images/logo/Logo (4).png" alt="logo" />
                 </div>
 
                 <div className="col-sm-12 col-md-2 d-flex justify-content-center">
-                <img width={'25%'} src="/images/logo/Logo (5).png" alt="logo" />
+                <img className="card-clients" width={'25%'} src="/images/logo/Logo (5).png" alt="logo" />
                 </div>
 
                 <div className="col-sm-12 col-md-2 d-flex justify-content-center">
-                <img width={'25%'} src="/images/logo/Logo (6).png" alt="logo" />
+                <img className="card-clients" width={'25%'} src="/images/logo/Logo (6).png" alt="logo" />
                 </div>
             </div>
         </Container>
