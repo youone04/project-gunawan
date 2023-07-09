@@ -5,6 +5,8 @@ import './index.css'
 import './mobile.css'
 import './animasi.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'swiper/css/swiper.min.css';
+
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(

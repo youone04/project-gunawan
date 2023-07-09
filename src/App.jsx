@@ -4,6 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Routes, Route} from "react-router-dom";
 import NextCent from './pages/NextCent';
+import Swiper from './pages/Swiper';
+import DinamicInputData from './pages/DinamicInputData';
 
 function App() {
   useEffect(() => {
@@ -20,6 +22,8 @@ function App() {
     <>
      <Routes>
       <Route path='/' element={<NextCent />} />
+      <Route path='/swiper' element={<Swiper />} />
+      <Route path='/dinamic' element={<DinamicInputData />} />
     </Routes>
     </>
   )
