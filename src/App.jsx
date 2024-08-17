@@ -19,13 +19,11 @@ function App() {
   }, []);
 
   return (
-    <>
-     <Routes>
-      <Route path='/' element={<NextCent />} />
-      <Route path='/swiper' element={<Swiper />} />
-      <Route path='/dinamic' element={<DinamicInputData />} />
-    </Routes>
-    </>
+    <Routes>
+    <Route path='/' element={<NextCent />} />
+    <Route path='/swiper' element={<Swiper />} />
+    <Route path='/dinamic' element={<DinamicInputData />} />
+  </Routes>
   )
 }
 
