@@ -53,6 +53,9 @@
         height: 515px;
         width: 100%;
     }
+    .btn-positivus{
+        width: 100%;
+    }
 }
 
 /* LG */
@@ -76,6 +79,9 @@
     }
     .ilustration {
         height: 515px;
+        width: 100%;
+    }
+    .btn-positivus{
         width: 100%;
     }
 }
