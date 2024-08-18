@@ -64,16 +64,33 @@
 }
 .arrow{
     background-color: var(--black-color);
-    color: var(--white-color);
-    width: 41px;
-    height: 41px;
-    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
     text-align: center;
 }
+.arrow-2{
+    background-color: var(--white-color);
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    text-align: center;
+
+}
 .arrow p{
-    font-size: 26px;
+    font-size: 20px;
     transform: rotate(-30deg);
 }
-
+.arrow-2 p{
+    font-size: 20px;
+    transform: rotate(-30deg);
+}
+.btn-get{
+    width: 288px;
+    height: 68px;
+    background-color: var(--black-color);
+    border-radius: 14px;
+    color: var(--white-color);
+}
   
   
