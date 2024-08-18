@@ -9,7 +9,7 @@
 }
 .section-card-1{
     padding: 50px;
-    width: 600px;
+    /* width: 600px; */
     height: 310px;
     background-color: var(--gray-color);
     border-radius: 45px;
@@ -39,13 +39,28 @@
     border-radius: 45px;
 }
 .section-card-1 h3{
-    background-color: var(--green-color);
+    background-image: linear-gradient(to right, var(--green-color) 100%, #FB2D1B80 0%);
+    background-position: left top;
+    background-size: 100% 1.35em;
+    background-repeat: no-repeat;
+    padding: 0.1em 0em;
+    display: inline; /* Menyesuaikan lebar dengan teks */
 }
 .section-card-2 h3{
-    background-color: var(--gray-color);
+    background-image: linear-gradient(to right, var(--gray-color) 100%, #FB2D1B80 0%);
+    background-position: left top;
+    background-size: 100% 1.35em;
+    background-repeat: no-repeat;
+    padding: 0.1em 0em;
+    display: inline; /* Menyesuaikan lebar dengan teks */
 }
 .section-card-3 h3{
-    background-color: var(--white-color);
+    background-image: linear-gradient(to right,  var(--white-color) 100%, #FB2D1B80 0%);
+    background-position: left top;
+    background-size: 100% 1.35em;
+    background-repeat: no-repeat;
+    padding: 0.1em 0em;
+    display: inline; /* Menyesuaikan lebar dengan teks */
 }
 .arrow{
     background-color: var(--black-color);
@@ -59,3 +74,6 @@
     font-size: 26px;
     transform: rotate(-30deg);
 }
+
+  
+  

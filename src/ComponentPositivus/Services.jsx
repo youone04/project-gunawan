@@ -25,7 +25,7 @@ export default function Services() {
                         <Row>
                             <Col lg={6}>
                                 <Col>
-                                    <h3>Search engine optimization</h3>
+                                    <h3 style={{width: 200}}>Search engine optimization</h3>
                                 </Col>
 
                                 <Col style={{ marginTop: 93 }}>
@@ -53,7 +53,7 @@ export default function Services() {
                     <div className="section-card-2">
                         <Row>
                             <Col lg={6}>
-                                <h3>Pay-per-click adertising</h3>
+                                <h3 className="highlight">Pay-per-click adertising</h3>
                             </Col>
                             <Col lg={6}>
                             </Col>
