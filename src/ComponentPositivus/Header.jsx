@@ -1,5 +1,5 @@
-import './assets/index.css';
-import './assets/header.css';
+import '@/ComponentPositivus/assets/index.css';
+import '@/ComponentPositivus/assets/header.css';
 
 export default function Header() {
     return (

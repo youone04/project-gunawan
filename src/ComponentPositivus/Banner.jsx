@@ -1,4 +1,4 @@
-import './assets/banner.css';
+import '@/ComponentPositivus/assets/banner.css';
 export default function Banner() {
     return (
         <div className='d-flex'>

@@ -11,6 +11,10 @@
       "src/**/*.ts",
       "src/**/*.tsx",
       "src/**/*.js",
-      "src/**/*.jsx"
+      "src/**/*.jsx",
+      "src/**/*.css",
+      "src/**/*.png",
+      "src/**/*.jpg",
+      "src/**/*.jpeg"
     ]
 }

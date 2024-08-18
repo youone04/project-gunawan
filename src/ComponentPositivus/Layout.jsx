@@ -1,5 +1,5 @@
-import Banner from "./Banner";
-import Header from "./Header";
+import Banner from "@ComponentPositivus/Banner";
+import Header from "@ComponentPositivus/Header";
 
 export default function Layout({children}) {
     return(
