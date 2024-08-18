@@ -1,8 +1,12 @@
+import Banner from "./Banner";
+import Header from "./Header";
+
 export default function Layout({children}) {
     return(
-        <>
-        <h1>Positivus</h1>
-            {children}
-        </>
+        <div className="container-mod">
+        <Header/>
+        <Banner/>
+            {/* {children} */}
+        </div>
     )
 }
