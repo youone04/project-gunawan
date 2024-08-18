@@ -1,4 +1,4 @@
-.desc-positivus{
+.desc-positivus {
     width: 501px;
     height: auto;
     display: flex;
@@ -7,18 +7,74 @@
 
 }
 
-.desc-positivus h2{
+.desc-positivus h2 {
     width: 458px;
 }
 
-.desc-positivus p{
+.desc-positivus p {
     font-size: 20px;
     width: 498px;
 }
-.btn-positivus{
+
+.btn-positivus {
     background-color: var(--black-color);
     color: var(--white-color);
     width: 264px;
     height: 68px;
     border-radius: 14px;
+}
+
+.ilustration {
+    height: 515px;
+    width: 600.46px;
+}
+
+/* MD */
+@media (min-width: 768px) {
+    .desc-positivus {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+
+    }
+
+    .desc-positivus h2 {
+        width: 100%;
+    }
+
+    .desc-positivus p {
+        font-size: 20px;
+        width: 498px;
+    }
+    .ilustration {
+        height: 515px;
+        width: 100%;
+    }
+}
+
+/* LG */
+@media (min-width: 992px) {
+    .desc-positivus {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+
+    }
+
+    .desc-positivus h2 {
+        width: 100%;
+    }
+
+    .desc-positivus p {
+        font-size: 20px;
+        width: 498px;
+    }
+    .ilustration {
+        height: 515px;
+        width: 100%;
+    }
 }

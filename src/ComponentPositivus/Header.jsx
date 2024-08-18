@@ -30,7 +30,6 @@ export default function Header() {
                         backgroundColor: 'white',
                     }}>Request a Quote</button>
 
-
                 </div>
             </div>
 
