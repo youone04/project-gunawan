@@ -4,22 +4,18 @@ import ilustrastion from '@/ComponentPositivus/assets/images/Illustration.png';
 export default function Banner() {
     return (
         <Row style={{ marginTop: 50 }}>
-            <Col xs={12} sm={12} md={12} lg={6}>
-                <div className='flex-1'>
-                    <div className='desc-positivus'>
-                        <h2>Navigating the digital landscape for success</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus iusto nesciunt,
-                            aperiam neque commodi sint velit. Reiciendis voluptatum, nobis blanditiis
-                            eius, laboriosam voluptatibus commodi, quidem neque modi obcaecati aspernatur.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus iusto nesciunt.</p>
-                        <button className='btn-positivus'>Book a consultation</button>
-                    </div>
+            <Col xs={{span: 12, order: 2}} sm={{span:12, order: 2}} md={{span:12, order: 2}} lg={{span: 6, order:1}}>
+                <div className='desc-positivus'>
+                    <h1>Navigating the digital landscape for success</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus iusto nesciunt,
+                        aperiam neque commodi sint velit. Reiciendis voluptatum, nobis blanditiis
+                        eius, laboriosam voluptatibus commodi, quidem neque modi obcaecati aspernatur.
+                        laboriosam voluptatibus commodi, quidem neque modi obcaecati aspernatur.</p>
+                    <button className='btn-positivus'>Book a consultation</button>
                 </div>
             </Col>
-            <Col xs={12} sm={12} md={12} lg={6}>
-                <div className='flex-1'>
-                    <img src={ilustrastion} alt="ilustrastion" className='ilustration' />
-                </div>
+            <Col xs={{span: 12, order: 1}} sm={{span:12, order: 1}} md={{span:12,order: 1}} lg={{span: 6,order: 2}}>
+                <img src={ilustrastion} alt="ilustrastion" className='ilustration' />
             </Col>
         </Row>
     )

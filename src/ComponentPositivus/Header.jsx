@@ -10,7 +10,7 @@ export default function Header() {
                     <h1 className='flex-1' style={{ paddingTop: 10, marginTop: 10 }}>
                         <img src={logoPositivius} alt='logo' />
                     </h1>
-                    <div className='flex-3'>
+                    <div className='flex-3 menu-positivius'>
                         <ul className='horizontal-li' style={{ paddingTop: 20, marginTop: 10 }}>
                             <li>About us</li>
                             <li>Services</li>
@@ -20,7 +20,7 @@ export default function Header() {
                         </ul>
                     </div>
                     <button 
-                    className='justifiy-content-center align-items-center d-flex'
+                    className='justifiy-content-center align-items-center d-flex menu-positivius'
                     style={{
                         marginTop: 10,
                         height: 68,

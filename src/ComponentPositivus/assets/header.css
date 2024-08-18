@@ -5,3 +5,16 @@
     padding: 0;
     gap: 40px;
 }
+/* MD */
+@media (max-width: 768px) {
+    .menu-positivius{
+        display: none;
+    }
+}
+
+/* LG */
+@media (max-width: 992px) {
+    .menu-positivius{
+        display: none;
+    }
+}
