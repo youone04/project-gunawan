@@ -3,6 +3,7 @@ import Header from "@ComponentPositivus/Header";
 import LogoList from "@ComponentPositivus/LogoList";
 import { Container } from "react-bootstrap";
 import Services from "@ComponentPositivus/Services";
+import CaseStudy from "@ComponentPositivus/CaseStudy";
 
 export default function Layout({children}) {
     return(
@@ -11,6 +12,7 @@ export default function Layout({children}) {
         <Banner/>
         <LogoList/>
         <Services/>
+        <CaseStudy/>
             {/* {children} */}
         </Container>
     )

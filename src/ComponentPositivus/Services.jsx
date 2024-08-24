@@ -57,7 +57,7 @@ export default function Services() {
                         <Row>
                             <Col lg={6}>
                                 <Col>
-                                    <h3 className="highlight">Pay-per-click adertising</h3>
+                                    <h3>Pay-per-click adertising</h3>
                                 </Col>
                                 <Col style={{ marginTop: 93 }}>
                                     <div className="d-flex" style={{ gap: 10 }}>

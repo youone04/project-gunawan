@@ -52,6 +52,10 @@
 .align-items-center{
     align-items: center;
 }
+.bg-text{
+    background-color: var(--green-color);
+    width: 80%;
+}
 /* MD */
 @media (min-width: 768px) {
     .row-mod-md-4 .col-mod {
