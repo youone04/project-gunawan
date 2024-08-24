@@ -8,6 +8,39 @@ const dataStatus = [];
         dataStatus.push(false)
 
     })
+
+const content = [
+    {
+        no: '01',
+        title: 'Consultation',
+        des: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.'
+    },
+    {
+        no: '02',
+        title: 'Research and Strategy Development',
+        des: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.'
+    },
+    {
+        no: '03',
+        title: 'Implementation',
+        des: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.'
+    },
+    {
+        no: '04',
+        title: 'Monitoring and Optimization',
+        des: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.'
+    },
+    {
+        no: '05',
+        title: 'Reporting and Communication',
+        des: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.'
+    },
+    {
+        no: '06',
+        title: 'Continual Improvement',
+        des: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.'
+    }
+]
 export default function CaseStudy() {
     const [open, setOpen] = useState(dataStatus);
 
@@ -55,15 +88,15 @@ export default function CaseStudy() {
                 </Col>
             </Row>
             {
-                [1, 2, 3, 4, 5, 6].map((_, i) => {
+                content.map((data, i) => {
                     return (
-                        <Card key={i} className={open[i] ? "card-mod mt-5" : "mt-5"} style={{ borderRadius: 25, height: 'auto' }}>
+                        <Card key={i} className={open[i] ? "card-mod mt-5 box-shadow-mod" : "mt-5 box-shadow-mod"} style={{ borderRadius: 25, height: 'auto' }}>
                             <Card.Body style={{ padding: 30 }}>
                                 <Row>
                                     <div className="d-flex justify-content-between">
                                         <div className="d-flex align-items-center" style={{ gap: 30 }}>
-                                            <h1>01</h1>
-                                            <p>Consultation</p>
+                                            <h1>{data.no}</h1>
+                                            <p>{data.title}</p>
                                         </div>
                                         <span onClick={() => handleOpen(i)} className="d-flex icon-plus-minus justify-content-center">
                                             <h1 className="align-items-center">{open[i] ? '-' : '+'}</h1>
@@ -74,8 +107,7 @@ export default function CaseStudy() {
                                     <div>
                                         <hr />
                                         <p>
-                                            During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts.
-                                            This will allow us to understand your needs and tailor our services to best fit your requirements.
+                                            {data.des}
                                         </p>
                                     </div>
                                 </Collapse>
@@ -85,112 +117,6 @@ export default function CaseStudy() {
                     )
                 })
             }
-
-
-            {/* <Card className="mt-3 card-mod-2" style={{ borderRadius: 25, height: 'auto' }}>
-                <Card.Body style={{ padding: 30 }}>
-                    <Row>
-                        <div className="d-flex justify-content-between">
-                            <div className="d-flex align-items-center" style={{ gap: 30 }}>
-                                <h1>02</h1>
-                                <p>Research and Strategy Development</p>
-                            </div>
-                            <span className="d-flex icon-plus-minus justify-content-center">
-                                <h1 className="align-items-center">+</h1>
-                            </span>
-                        </div>
-                    </Row>
-                    <hr />
-                    <p>
-                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts.
-                        This will allow us to understand your needs and tailor our services to best fit your requirements.
-                    </p>
-                </Card.Body>
-            </Card>
-
-            <Card className="mt-3 card-mod-2" style={{ borderRadius: 25, height: 'auto' }}>
-                <Card.Body style={{ padding: 30 }}>
-                    <Row>
-                        <div className="d-flex justify-content-between">
-                            <div className="d-flex align-items-center" style={{ gap: 30 }}>
-                                <h1>03</h1>
-                                <p>Implementation</p>
-                            </div>
-                            <span className="d-flex icon-plus-minus justify-content-center">
-                                <h1 className="align-items-center">+</h1>
-                            </span>
-                        </div>
-                    </Row>
-                    <hr />
-                    <p>
-                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts.
-                        This will allow us to understand your needs and tailor our services to best fit your requirements.
-                    </p>
-                </Card.Body>
-            </Card>
-
-            <Card className="mt-3 card-mod-2" style={{ borderRadius: 25, height: 'auto' }}>
-                <Card.Body style={{ padding: 30 }}>
-                    <Row>
-                        <div className="d-flex justify-content-between">
-                            <div className="d-flex align-items-center" style={{ gap: 30 }}>
-                                <h1>04</h1>
-                                <p>Monitoring and Optimization</p>
-                            </div>
-                            <span className="d-flex icon-plus-minus justify-content-center">
-                                <h1 className="align-items-center">+</h1>
-                            </span>
-                        </div>
-                    </Row>
-                    <hr />
-                    <p>
-                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts.
-                        This will allow us to understand your needs and tailor our services to best fit your requirements.
-                    </p>
-                </Card.Body>
-            </Card>
-
-            <Card className="mt-3 card-mod-2" style={{ borderRadius: 25, height: 'auto' }}>
-                <Card.Body style={{ padding: 30 }}>
-                    <Row>
-                        <div className="d-flex justify-content-between">
-                            <div className="d-flex align-items-center" style={{ gap: 30 }}>
-                                <h1>05</h1>
-                                <p>Reporting and Communication</p>
-                            </div>
-                            <span className="d-flex icon-plus-minus justify-content-center">
-                                <h1 className="align-items-center">+</h1>
-                            </span>
-                        </div>
-                    </Row>
-                    <hr />
-                    <p>
-                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts.
-                        This will allow us to understand your needs and tailor our services to best fit your requirements.
-                    </p>
-                </Card.Body>
-            </Card>
-
-            <Card className="mt-3 card-mod-2" style={{ borderRadius: 25, height: 'auto' }}>
-                <Card.Body style={{ padding: 30 }}>
-                    <Row>
-                        <div className="d-flex justify-content-between">
-                            <div className="d-flex align-items-center" style={{ gap: 30 }}>
-                                <h1>06</h1>
-                                <p>Continual Improvement</p>
-                            </div>
-                            <span className="d-flex icon-plus-minus justify-content-center">
-                                <h1 className="align-items-center">+</h1>
-                            </span>
-                        </div>
-                    </Row>
-                    <hr />
-                    <p>
-                        During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts.
-                        This will allow us to understand your needs and tailor our services to best fit your requirements.
-                    </p>
-                </Card.Body>
-            </Card> */}
         </Col>
     )
 }
