@@ -1,0 +1,19 @@
+.desc-team{
+    font-size: 14px;
+    width: 45%;
+}
+.card-team{
+    width: 387px;
+    height: 330.82px;
+    border-radius: 25px !important;
+}
+.in-team{
+    background-color: var(--black-color);
+    color: var(--green-color);
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+}
+.desc-text-team{
+    font-size: 14px;
+}
