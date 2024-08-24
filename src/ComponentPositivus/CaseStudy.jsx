@@ -32,9 +32,9 @@ export default function CaseStudy() {
         // console.log([...data.slice(2+1)])
         
         
-        // console.log([...data.slice(0,4)])
-        // console.log(data[4])
-        // console.log([...data.slice(4+1)])
+        // console.log([...data.slice(0,3)])
+        // console.log(data[3])
+        // console.log([...data.slice(3+1)])
         
         // console.log('hasil => ',[...data.slice(0,1), !data[1], ...data.slice(1+1)])
 
