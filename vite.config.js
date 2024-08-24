@@ -9,6 +9,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
       '@components': path.resolve(__dirname, './src/components'),
       '@ComponentPositivus': path.resolve(__dirname, './src/ComponentPositivus'),
+      '@ComponentNotFound': path.resolve(__dirname, './src/ComponentNotFound'),
     },
   },
   plugins: [react()],

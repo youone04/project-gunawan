@@ -1,0 +1,7 @@
+.container-mod{
+    height: 100vh;
+}
+.content-mod{
+    max-width: 400px;
+    color: red;
+}
