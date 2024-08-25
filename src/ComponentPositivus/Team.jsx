@@ -83,7 +83,7 @@ export default function Team() {
                                     </Card.Title>
                                     <hr />
                                     <Card.Body>
-                                       {item.experience}
+                                        {item.experience}
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -91,6 +91,9 @@ export default function Team() {
                     })
                 }
             </Row>
+            <Col className='d-flex justify-content-end mt-5'>
+                <button className='btn-see-all'>See all team</button>
+            </Col>
         </Col>
     )
 }
