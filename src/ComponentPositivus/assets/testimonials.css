@@ -1,0 +1,109 @@
+.bg-text-testimonial{
+    background-color: var(--green-color);
+    width: 100%;
+}
+.section-card-testimomial{
+    padding: 60px;
+    width: 1240px;
+    height: 625px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 45px;
+}
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: #1b1b1e;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .testimonial-slide {
+    width: 90% !important;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .testimonial-card {
+    padding: 20px;
+    border: 2px solid #a4ff00; /* Border hijau */
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+  }
+   .testimonial-card:after {
+    content: "";
+    position: absolute;
+    box-shadow: rgb(164, 255, 0) 2px 2px 2px ;
+    transform: rotate(45deg);
+    
+    bottom: -15px;
+    left: 48px;
+    border-width: 17px;
+    border-style: solid;
+    border-color: black;
+  }
+  
+
+
+.testimonial-card::before {
+    content: '';
+    position: absolute;
+    bottom: -18px; /* Sesuaikan dengan nilai 'bottom' pada ::after */
+    left: 50%;
+    transform: translateX(-420%);
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #1b1b1e; /* Warna dasar card untuk menciptakan efek border pada background card */
+  }
+  
+  
+  .testimonial-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-author {
+    margin-top: 50px;
+  }
+  
+  .author-name {
+    font-weight: bold;
+    color: #a4ff00;
+  }
+  
+  .author-position {
+    font-size: 14px;
+    color: #ccc;
+  }
+ 
+  .slick-dots li button:before {
+    margin-top: 80px;
+    font-size: 12px;
+    background-color: #fff;
+    color: #a4ff00;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    background-color: #a4ff00;
+    color: #a4ff00;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #a4ff00;
+  }
+  
+  .slick-list {
+    overflow: visible;
+  }
+  
+  .slick-center .testimonial-card {
+    transform: scale(1.05); /* Memberikan sedikit pembesaran pada card di tengah */
+  }
+  

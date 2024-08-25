@@ -6,6 +6,7 @@ import Services from "@ComponentPositivus/Services";
 import CaseStudy from "@ComponentPositivus/CaseStudy";
 import Team from "@ComponentPositivus/Team";
 import OnWorkingProcess from "@ComponentPositivus/OnWorkingProcess";
+import Testimonials from "@ComponentPositivus/Testimonials";
 
 export default function Layout({children}) {
     return(
@@ -17,6 +18,7 @@ export default function Layout({children}) {
         <CaseStudy/>
         <OnWorkingProcess/>
         <Team/>
+        <Testimonials/>
         </Container>
     )
 }
