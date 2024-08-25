@@ -1,0 +1,25 @@
+.desc-contact-us {
+    width: 40%;
+}
+
+.bg-text-contact-us {
+    background-color: var(--green-color);
+    width: 50%;
+}
+
+.card-contact-us {
+    background-color: var(--gray-color);
+}
+
+.btn-contact-us {
+    background-color: var(--black-color) !important;
+    color: white;
+    width: 100%;
+}
+
+.image-contact-us {
+    position: absolute;
+    top: 5%;
+    width: 40%;
+    left: 78.5%;
+}
