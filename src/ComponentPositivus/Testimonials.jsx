@@ -43,6 +43,7 @@ export default function Testimonials() {
             breakpoint: 768, // Mobile breakpoint
             settings: {
               slidesToShow: 1,
+              centerMode: false,
               centerPadding: '0px', // Remove padding for mobile
             }
           }
@@ -67,22 +68,15 @@ export default function Testimonials() {
                                 <p className="testimonial-text">"{testimonial.text}"</p>
                             </div>
                             <div className="testimonial-author">
-                                    <p className="author-name">{testimonial.name}</p>
-                                    <p className="author-position">{testimonial.position}</p>
+                                   <div>
+                                   <p className="author-name">{testimonial.name}</p>
+                                   <p className="author-position">{testimonial.position}</p>
+                                   </div>
                                 </div>
                         </div>
                     ))}
                 </Slider>
             </div>
-            <div class="speech-bubble">
-  <div class="speech-bubble-icon">
-    <i class="fa fa-2x fa-gittip"></i>
-  </div>
-  <div class="speech-bubble-text">
-    <p class="speech-bubble-text-line">Hello</p>
-    <p class="speech-bubble-text-line">I'm chonny!</p>
-  </div>
-</div>
         </Col>
     )
 }  
