@@ -28,7 +28,7 @@ export default function Services() {
 
             <Row className="mt-3 g-4">
                 <Col lg={6}>
-                    <div className="section-card-1">
+                    <div className="section-card-1 box-shadow-mod">
                         <Row>
                             <Col lg={6}>
                                 <Col>
@@ -53,7 +53,7 @@ export default function Services() {
                 </Col>
 
                 <Col lg={6}>
-                    <div className="section-card-2">
+                    <div className="section-card-2 box-shadow-mod">
                         <Row>
                             <Col lg={6}>
                                 <Col>
@@ -76,7 +76,7 @@ export default function Services() {
                 </Col>
 
                 <Col lg={6}>
-                    <div className="section-card-3">
+                    <div className="section-card-3 box-shadow-mod">
                         <Row>
                             <Col lg={6}>
                                 <Col><h3>Social media marketing</h3></Col>
@@ -98,7 +98,7 @@ export default function Services() {
                 </Col>
 
                 <Col lg={6}>
-                    <div className="section-card-1">
+                    <div className="section-card-1 box-shadow-mod">
                         <Row>
                             <Col lg={6}>
                                 <Col><h3>Email marketing</h3></Col>
@@ -120,7 +120,7 @@ export default function Services() {
                 </Col>
 
                 <Col lg={6}>
-                    <div className="section-card-2">
+                    <div className="section-card-2 box-shadow-mod">
                         <Row>
                             <Col lg={6}>
                                 <Col><h3>Content Creation</h3></Col>
@@ -142,7 +142,7 @@ export default function Services() {
                 </Col>
 
                 <Col lg={6}>
-                    <div className="section-card-3">
+                    <div className="section-card-3 box-shadow-mod">
                         <Row>
                             <Col lg={6}>
                                 <Col><h3>Anayalic and tracking</h3></Col>
@@ -164,7 +164,7 @@ export default function Services() {
                 </Col>
 
                 <Col className="d-flex justify-content-center align-items-center" lg={12}>
-                    <div className="section-card-4" >
+                    <div className="section-card-4 box-shadow-mod" >
                         <Row>
                             <Col lg={6}>
                                 <h3>Let's make things happen</h3>
