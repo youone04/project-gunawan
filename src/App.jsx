@@ -8,7 +8,7 @@ import Swiper from '@/pages/Swiper';
 import DinamicInputData from '@/pages/DinamicInputData';
 import Positivius from '@/pages/Positivus';
 import NotFound from '@ComponentNotFound/NotFound';
-NotFound
+import Home from './componentPortofolio/Home';
 
 function App() {
   useEffect(() => {
@@ -23,7 +23,8 @@ function App() {
 
   return (
     <Routes>
-    <Route path='/' element={<NextCent />} />
+    <Route path='/' element={<Home />} />
+    <Route path='/nexcent' element={<NextCent />} />
     <Route path='/swiper' element={<Swiper />} />
     <Route path='/dinamic' element={<DinamicInputData />} />
     <Route path='/positivius' element={<Positivius />} />
