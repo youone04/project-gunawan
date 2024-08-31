@@ -361,7 +361,7 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
+  background: transparent;
   border-radius: 20px;
 }
 
@@ -421,13 +421,13 @@ main {
   display: none;
 }
 
-.sidebar-info_more {
+.sidebar-info_more-portofolio {
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active .sidebar-info_more {
+.sidebar.active .sidebar-info_more-portofolio {
   opacity: 1;
   visibility: visible;
 }
@@ -2107,7 +2107,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box img {
-    width: 150px;
+    width: 80px;
+    border-radius: 50%;
   }
 
   .info-content .name {
@@ -2123,19 +2124,21 @@ textarea.form-input::-webkit-resizer {
     display: none;
   }
 
-  .sidebar-info_more {
+  .sidebar-info_more-portofolio {
     opacity: 1;
     visibility: visible;
   }
 
   .contacts-list {
     grid-template-columns: 1fr;
+    padding-left: 0;
   }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-decoration: none;
   }
 
   .contact-info :is(.contact-link, time, address) {
@@ -2153,7 +2156,6 @@ textarea.form-input::-webkit-resizer {
   }
 
 
-
   /**
 	 * RESUME
 	 */
@@ -2162,4 +2164,26 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 
+}
+
+/* Style for the tabs */
+.navbar-mod-home .nav-item .nav-link {
+  color: hsl(45, 100%, 71%); /* Default text color for tabs */
+  border-radius: 0; /* Remove border radius if desired */
+  border: none;
+}
+
+.navbar-mod-home .nav-item .nav-link.active {
+  color: #fff; /* Text color for active tab */
+  background-color: transparent;
+  border-radius: 30%;
+  border: none;
+}
+
+/* Additional hover and focus styles */
+.navbar-mod-home .nav-item .nav-link:hover,
+.navbar-mod-home .nav-item .nav-link:focus {
+  border: none;
+  background-color: transparent;
+  border-radius: 30%;
 }

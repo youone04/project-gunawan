@@ -1,3 +1,7 @@
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faLocation, faLocationPin, faLocationPinLock, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Aside() {
     return (
         <aside className="sidebar" data-sidebar>
@@ -5,13 +9,13 @@ export default function Aside() {
             <div className="sidebar-info">
 
                 <figure className="avatar-box">
-                    <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80" />
+                    <img style={{ borderRadius: '50%' }} src="https://res.cloudinary.com/dazrfoep1/image/upload/v1725067559/portofolio-not-delete/cnzqba9gxls7xokosbyn.jpg" alt="Richard hanrick" width="80" />
                 </figure>
 
                 <div className="info-content">
-                    <h1 className="name" title="Richard hanrick">Richard hanrick</h1>
+                    <h1 className="name" title="Richard hanrick">Yudi Gunawan</h1>
 
-                    <p className="title">Web developer</p>
+                    <p className="title">Frontend Developer</p>
                 </div>
 
                 <button className="info_more-btn" data-sidebar-btn>
@@ -22,7 +26,7 @@ export default function Aside() {
 
             </div>
 
-            <div className="sidebar-info_more">
+            <div className="sidebar-info_more-portofolio">
 
                 <div className="separator"></div>
 
@@ -31,13 +35,13 @@ export default function Aside() {
                     <li className="contact-item">
 
                         <div className="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
+                        <FontAwesomeIcon icon={faEnvelope} style={{color: 'hsl(45, 100%, 71%)'}}/>
                         </div>
 
                         <div className="contact-info">
                             <p className="contact-title">Email</p>
 
-                            <a href="mailto:richard@example.com" className="contact-link">richard@example.com</a>
+                            <a href="mailto:yudi.gunaone87@gmail.com" className="contact-link">yudi.gunaone87@gmail.com</a>
                         </div>
 
                     </li>
@@ -45,41 +49,28 @@ export default function Aside() {
                     <li className="contact-item">
 
                         <div className="icon-box">
-                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        <FontAwesomeIcon icon={faPhone} style={{color: 'hsl(45, 100%, 71%)'}}/>
                         </div>
 
                         <div className="contact-info">
                             <p className="contact-title">Phone</p>
 
-                            <a href="tel:+12133522795" className="contact-link">+1 (213) 352-2795</a>
+                            <a href="tel:+6285816790359" className="contact-link">+6285816790359</a>
                         </div>
 
                     </li>
 
-                    <li className="contact-item">
-
-                        <div className="icon-box">
-                            <ion-icon name="calendar-outline"></ion-icon>
-                        </div>
-
-                        <div className="contact-info">
-                            <p className="contact-title">Birthday</p>
-
-                            <time dateTime="1982-06-23">June 23, 1982</time>
-                        </div>
-
-                    </li>
 
                     <li className="contact-item">
 
                         <div className="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
+                        <FontAwesomeIcon icon={faLocationPin} style={{color: 'hsl(45, 100%, 71%)'}}/>
                         </div>
 
                         <div className="contact-info">
                             <p className="contact-title">Location</p>
 
-                            <address>Sacramento, California, USA</address>
+                            <address>Jakarta, Indonesia</address>
                         </div>
 
                     </li>
@@ -92,19 +83,19 @@ export default function Aside() {
 
                     <li className="social-item">
                         <a href="#" className="social-link">
-                            <ion-icon name="logo-facebook"></ion-icon>
+                        <FontAwesomeIcon icon={faFacebook} style={{color: 'white'}}/>
                         </a>
                     </li>
 
                     <li className="social-item">
                         <a href="#" className="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon>
+                        <FontAwesomeIcon icon={faTwitter} style={{color: 'white'}}/>
                         </a>
                     </li>
 
                     <li className="social-item">
                         <a href="#" className="social-link">
-                            <ion-icon name="logo-instagram"></ion-icon>
+                        <FontAwesomeIcon icon={faInstagram} style={{color: 'white'}}/>
                         </a>
                     </li>
 
