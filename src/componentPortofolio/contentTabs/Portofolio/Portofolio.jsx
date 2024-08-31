@@ -194,7 +194,7 @@ export default function Portfolio() {
             </li>
 
             <li className="project-item  active" data-filter-item data-category="applications">
-              <a href="/nexcent" style={{textDecoration:'none'}}>
+              <a href="/nexcent" target="_blank" style={{textDecoration:'none'}}>
 
                 <figure className="project-img">
                   <div className="project-item-icon-box">
