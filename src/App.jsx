@@ -36,6 +36,7 @@ function App() {
 
     {/* documentasi */}
     <Route path='/handle-images' element={<MainHandleImages />} />
+    <Route path='/filter-images' element={<MainHandleImages />} />
     {/* End documentasi */}
 
     <Route path="*" element={<NotFound />} />

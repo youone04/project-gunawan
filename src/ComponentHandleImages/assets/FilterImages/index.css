@@ -1,0 +1,21 @@
+.container-images-filter{
+    padding: 20px;
+}
+.photos-filter-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+
+}
+.photos-filter-images img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    
+}
+.photos-filter-images img:hover{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(0);
+    
+}
