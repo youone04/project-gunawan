@@ -1,0 +1,18 @@
+.container-belajar-grid {
+    padding: 20px;
+}
+.belajar-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr; /* Grid dengan bagian kiri (1fr) dan kanan (2fr) */
+    gap: 20px;
+  
+    /* Media query untuk ukuran layar di bawah 600px */
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr; /* Satu kolom full width ketika layar di bawah 600px */
+    }
+  }
+  .grid-item{
+    background-color: #c41d1d;
+    padding: 20px;
+    text-align: center; 
+  }

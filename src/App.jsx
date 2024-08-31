@@ -10,6 +10,7 @@ import Positivius from '@/pages/Positivus';
 import NotFound from '@ComponentNotFound/NotFound';
 import Home from './componentPortofolio/Home';
 import MainHandleImages from './ComponentHandleImages';
+import BelajarGrid from './ComponentGrid';
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,10 @@ function App() {
     <Route path='/handle-images' element={<MainHandleImages />} />
     <Route path='/filter-images' element={<MainHandleImages />} />
     {/* End documentasi */}
+
+    {/* belajar grid */}
+    <Route path='/grid' element={<BelajarGrid />} />
+    {/* End belajar grid */}
 
     <Route path="*" element={<NotFound />} />
   </Routes>
