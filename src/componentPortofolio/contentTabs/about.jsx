@@ -98,7 +98,7 @@ export default function About() {
 
         <section className="testimonials">
 
-          <h3 className="h3 testimonials-title">Testimonials</h3>
+          <h3 className="h3 testimonials-title" style={{ color: 'white' }}>Testimonials</h3>
 
           <ul className="testimonials-list has-scrollbar">
 

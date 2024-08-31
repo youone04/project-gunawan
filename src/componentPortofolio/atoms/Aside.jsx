@@ -1,5 +1,5 @@
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faLocation, faLocationPin, faLocationPinLock, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Aside() {
