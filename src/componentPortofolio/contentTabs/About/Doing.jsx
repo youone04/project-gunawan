@@ -1,3 +1,8 @@
+import iconWebDesaign from "../../assets/images/icon-design.svg";
+import iconWebDevelopment from "../../assets/images/icon-dev.svg";
+import iconWebMobileApp from "../../assets/images/icon-app.svg";
+
+
 export default function Doing({isHide = false}) {
     return (
         <section className="service" style={isHide ? {display: 'none'}: {display: 'block'}}>
@@ -9,8 +14,7 @@ export default function Doing({isHide = false}) {
           <li className="service-item">
 
             <div className="service-icon-box">
-              <img src="./assets/images/icon-design.svg
-              " alt="design icon" width="40" />
+              <img src={iconWebDesaign} alt="design icon" width="40" />
             </div>
 
             <div className="service-content-box">
@@ -26,7 +30,7 @@ export default function Doing({isHide = false}) {
           <li className="service-item">
 
             <div className="service-icon-box">
-              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              <img src={iconWebDevelopment} alt="Web development icon" width="40" />
             </div>
 
             <div className="service-content-box">
@@ -42,7 +46,7 @@ export default function Doing({isHide = false}) {
           <li className="service-item">
 
             <div className="service-icon-box">
-              <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              <img src={iconWebMobileApp} alt="mobile app icon" width="40" />
             </div>
 
             <div className="service-content-box">
