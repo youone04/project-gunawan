@@ -1432,6 +1432,9 @@ textarea.form-input::-webkit-resizer {
   /**
    * CUSTOM PROPERTY
    */
+   .icon-chevron-down{
+    visibility: hidden;
+   }
 
   :root {
 
@@ -1781,6 +1784,9 @@ textarea.form-input::-webkit-resizer {
   /**
    * REUSED STYLE
    */
+   .icon-chevron-down{
+    visibility: hidden;
+   }
 
   .sidebar,
   article {

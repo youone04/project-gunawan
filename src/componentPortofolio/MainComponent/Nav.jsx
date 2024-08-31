@@ -7,7 +7,7 @@ import MainResume from '../contentTabs/Resume';
 // import Kontak from '../contentTabs/Kontak/Kontak';
 // import Blog from '../contentTabs/Blog/Blog';
 export default function Nav() {
-  const [key, setKey] = useState('about');
+  const [key, setKey] = useState('resume');
 
   return (
     <div className="main-content">

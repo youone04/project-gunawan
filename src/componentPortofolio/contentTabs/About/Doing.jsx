@@ -11,7 +11,7 @@ export default function Doing({isHide = false}) {
 
         <ul className="service-list" style={{ padding: 0 }}>
 
-          <li className="service-item">
+          {/* <li className="service-item">
 
             <div className="service-icon-box">
               <img src={iconWebDesaign} alt="design icon" width="40" />
@@ -25,7 +25,7 @@ export default function Doing({isHide = false}) {
               </p>
             </div>
 
-          </li>
+          </li> */}
 
           <li className="service-item">
 
@@ -53,7 +53,7 @@ export default function Doing({isHide = false}) {
               <h4 className="service-item-title">React Native Developer</h4>
 
               <p className="service-item-text">
-                Professional development of applications for iOS and Android.
+                Professional development of applications for Android.
               </p>
             </div>
 

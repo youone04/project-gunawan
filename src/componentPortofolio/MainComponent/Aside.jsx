@@ -1,10 +1,12 @@
 import {faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faChevronDown, faEnvelope, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from 'react';
 
 export default function Aside() {
+    const [active ,setactive] = useState(false)
     return (
-        <aside className="sidebar" data-sidebar>
+        <aside className={active ? 'sidebar active' : 'sidebar'} data-sidebar>
 
             <div className="sidebar-info">
 
@@ -19,19 +21,14 @@ export default function Aside() {
                 </div>
 
                 <button className="info_more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
-
-                    {/* <ion-icon name="chevron-down"></ion-icon> */}
-                    <FontAwesomeIcon name="chevron-down" icon={faChevronDown} />
+                    <span onClick={() => setactive(!active)}>Show Contacts</span>
+                    <FontAwesomeIcon className='icon-chevron-down' onClick={() => setactive(!active)} name="chevron-down" icon={faChevronDown} />
                 </button>
-
             </div>
+
             <div className="sidebar-info_more-portofolio">
-
                 <div className="separator"></div>
-
                 <ul className="contacts-list">
-
                     <li className="contact-item">
 
                         <div className="icon-box">
@@ -41,7 +38,7 @@ export default function Aside() {
                         <div className="contact-info">
                             <p className="contact-title">Email</p>
 
-                            <a href="mailto:yudi.gunaone87@gmail.com" className="contact-link">yudi.gunaone87@gmail.com</a>
+                            <a style={{textDecoration: 'none'}} href="mailto:yudi.gunaone87@gmail.com" className="contact-link">yudi.gunaone87@gmail.com</a>
                         </div>
 
                     </li>
@@ -55,7 +52,7 @@ export default function Aside() {
                         <div className="contact-info">
                             <p className="contact-title">Phone</p>
 
-                            <a href="tel:+6285816790359" className="contact-link">+6285816790359</a>
+                            <a style={{textDecoration: 'none'}} href="tel:+6285816790359" className="contact-link">+6285816790359</a>
                         </div>
 
                     </li>

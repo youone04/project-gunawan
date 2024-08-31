@@ -1,7 +1,7 @@
-export default function About({isHide = false}) {
+export default function About({ isHide = false }) {
   return (
     <>
-      <header style={{display: isHide ? 'none' : 'block'}}>
+      <header style={{ display: isHide ? 'none' : 'block' }}>
         <h2 className="h2 article-title" style={{ color: 'white' }}>About me</h2>
       </header>
 
@@ -13,11 +13,15 @@ export default function About({isHide = false}) {
         </p>
 
         <p>
-          My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-          Moreover, I
-          add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-          across your
-          message and identity in the most creative way. I created web design for many famous brand companies.
+          🎓 Education:
+
+          Bachelor's degree in Informatics Engineering from Institut Teknologi Sumatera (ITERA).
+
+          💻 Professional Background:
+
+          🚀 Front End Developer: Currently working as a Front-End Developer with a specialization in ReactJS at PT. Nutech Integrasi since Juli 2023. I focus on building dynamic and responsive web applications.
+
+          📅 Experience: My journey as a Front-End Developer at PT. Cerdaskan Bangsa has allowed me to delve deep into ReactJS and ExpressJS, honing my skills in JavaScript programming and enriching my understanding of web development.
         </p>
       </section>
 
