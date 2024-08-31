@@ -1,4 +1,4 @@
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -82,19 +82,19 @@ export default function Aside() {
                 <ul className="social-list">
 
                     <li className="social-item">
-                        <a href="#" className="social-link">
-                        <FontAwesomeIcon icon={faFacebook} style={{color: 'white'}}/>
+                        <a href="https://github.com/youone04" target='_blank' className="social-link">
+                        <FontAwesomeIcon icon={faGithub} style={{color: 'white'}}/>
                         </a>
                     </li>
 
                     <li className="social-item">
-                        <a href="#" className="social-link">
-                        <FontAwesomeIcon icon={faTwitter} style={{color: 'white'}}/>
+                        <a href="https://www.linkedin.com/in/yudi-gunawan-b316a0170" target='_blank' className="social-link">
+                        <FontAwesomeIcon icon={faLinkedin} style={{color: 'white'}}/>
                         </a>
                     </li>
 
                     <li className="social-item">
-                        <a href="#" className="social-link">
+                        <a href="https://www.instagram.com/yoedi_goenawan" target='_blank' className="social-link" >
                         <FontAwesomeIcon icon={faInstagram} style={{color: 'white'}}/>
                         </a>
                     </li>

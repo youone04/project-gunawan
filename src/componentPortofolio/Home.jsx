@@ -1,5 +1,5 @@
-import { Aside } from "./atoms";
-import Nav from "./atoms/Nav";
+import { Aside } from "./MainComponent";
+import Nav from "./MainComponent/Nav";
 
 export default function Home() {
     return (

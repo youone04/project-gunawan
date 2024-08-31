@@ -1,4 +1,4 @@
-import { faBook, faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faBookOpen, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Resume() {
@@ -6,7 +6,10 @@ export default function Resume() {
         <article className="resume active" data-page="resume">
 
             <header>
-                <h2 className="h2 article-title" style={{ color: 'white' }}>Resume</h2>
+                <div style={{ display: 'flex', gap: 10, alignItems: 'center'}}>
+                    <h2 className="h2 article-title" style={{ color: 'white' }}>Resume</h2>
+                    <a href=""><FontAwesomeIcon icon={faFilePdf} className="mb-3" /></a>
+                </div>
             </header>
 
             <section className="timeline">
@@ -25,7 +28,7 @@ export default function Resume() {
 
                         <h4 className="h4 timeline-item-title" style={{ color: 'white' }}>Institut Teknologi Sumatera</h4>
                         <span>S1 Teknik Informatika</span>
-                        <span>2017 — 2023</span>
+                        <span>January 2017 — July 2023</span>
 
                         <p className="timeline-text">
                             Cakupan bidang ilmu (body of knowledge) yang diajarkan di Program Studi Teknik Informatika meliputi ilmu pada area computer science dan software
@@ -99,17 +102,17 @@ export default function Resume() {
 
                         <h4 className="h4 timeline-item-title" style={{ color: 'white' }}>PT. Cerdaskan Generasi Bangsa (Niomic)</h4>
                         <span>Frontend developer ReactJs</span>
-                        <span>2010 — 2013</span>
+                        <span>October 2021 — December 2022</span>
 
                         <ol className="timeline-text" style={{ paddingLeft: 0 }}>
-                            <li>Responsible for the composition of the appearance of a website and application. Starting
+                            <li>1. Responsible for the composition of the appearance of a website and application. Starting
                                 from the content , color-type,font size, images, and buttons contained must make users feel
                                 comfortable when viewing and interacting in it and converting figma designs into html and
                                 css.in making the appearance of the website using the React js library and the bootsrap
                                 framework.</li>
-                            <li>3. Develop website with redux saga</li>
-                            <li>4. Bug fixing</li>
-                            <li>5. Develop web internal niomic</li>
+                            <li>2. Develop website with redux saga</li>
+                            <li>3. Bug fixing</li>
+                            <li>4. Develop web internal niomic</li>
 
                         </ol>
 
