@@ -1,4 +1,5 @@
 import FilterImages from "./FilterImages";
+import InfinityScroll from "./InfinityScroll";
 import SizeImages from "./SizeImages";
 
 export default function MainHandleImages() {
@@ -7,6 +8,8 @@ export default function MainHandleImages() {
         <SizeImages/>
         <hr/>
         <FilterImages/>
+        <hr/>
+        <InfinityScroll/>
         </>
     )
 }

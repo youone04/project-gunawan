@@ -1,0 +1,25 @@
+.container-infinit{
+    padding: 20px;
+}
+.container-infinit-scroll{
+    display: flex;
+    overflow: hidden;
+}
+.wrapper-infinit-images{
+    display: flex;
+    flex-shrink: 0;
+    gap: 3rem;
+    padding: 1rem;
+    animation: infinite-scroll 5s linear infinite;
+}
+.wrapper-infinit-images img{
+    height: auto;
+}
+@keyframes infinite-scroll {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
