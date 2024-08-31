@@ -34,7 +34,7 @@ export default function Doing({isHide = false}) {
             </div>
 
             <div className="service-content-box">
-              <h4 className="service-item-title">Web development</h4>
+              <h4 className="service-item-title">React Js Developer</h4>
 
               <p className="service-item-text">
                 High-quality development of sites at the professional level.
@@ -50,7 +50,7 @@ export default function Doing({isHide = false}) {
             </div>
 
             <div className="service-content-box">
-              <h4 className="service-item-title">Mobile apps</h4>
+              <h4 className="service-item-title">React Native Developer</h4>
 
               <p className="service-item-text">
                 Professional development of applications for iOS and Android.
@@ -58,22 +58,6 @@ export default function Doing({isHide = false}) {
             </div>
 
           </li>
-
-          {/* <li className="service-item">
-
-            <div className="service-icon-box">
-              <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
-            </div>
-
-            <div className="service-content-box">
-              <h4 className="service-item-title">Photography</h4>
-
-              <p className="service-item-text">
-                I make high-quality photos of any category at a professional level.
-              </p>
-            </div>
-
-          </li> */}
 
         </ul>
 

@@ -1,8 +1,8 @@
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-export default function Education({isHide = false}) {
+export default function Education({ isHide = false }) {
     return (
-        <section className="timeline" style={{ display: isHide ? 'none' : 'block'}}>
+        <section className="timeline" style={{ display: isHide ? 'none' : 'block' }}>
 
             <div className="title-wrapper">
                 <div className="icon-box">
@@ -25,6 +25,22 @@ export default function Education({isHide = false}) {
                         engineering sehingga mahasiswa memiliki
                         kemampuan analisis persoalan yang terkait bidang computer science dan software engineering; dan juga
                         kemampuan untuk mengembangkan solusi perangkat lunak (software) baik yang kompleks  maupun dalam skala besar (large scale software).
+                    </p>
+
+                </li>
+
+                <li className="timeline-item">
+
+                    <h4 className="h4 timeline-item-title" style={{ color: 'white' }}>SMA N 1 Talangpadang</h4>
+                    <span>MIPA</span>
+                    <span>2014 — 2017</span>
+
+                    <p className="timeline-text">
+                    Cakupan bidang ilmu tentang alam mulai dari cara kerja alam, lingkungan dan ekosistemnya, 
+                    hukum yang berlaku di dalamnya, serta segala makhluk hidup yang tinggal dan hidup 
+                    di dalamnya termasuk kita manusia, serta masih banyak yang lainnya. Oh iya sekedar tambahan, 
+                    selain berisi mapel Ilmu Alam jurusan ini juga punya mapel matematikanya sendiri. 
+
                     </p>
 
                 </li>

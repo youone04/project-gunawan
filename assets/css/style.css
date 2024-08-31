@@ -14,7 +14,11 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-
+#root {
+  --bg-card-home: #15133C;
+  --bg-card-home-small: #15133cc2;
+  --color-text-home: #F8F4E1;
+}
 :root {
 
   /**
@@ -22,6 +26,7 @@
    */
 
   /* gradient */
+ 
 
   --bg-gradient-onyx: linear-gradient(to bottom right,
       hsl(240, 1%, 25%) 3%,
@@ -175,7 +180,7 @@ body {
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--bg-card-home);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -209,7 +214,7 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--eerie-black-1);
+  background: var(--bg-card-home-small);
   border-radius: inherit;
   z-index: -1;
 }
@@ -375,7 +380,7 @@ main {
 
 .info-content .title {
   color: var(--white-1);
-  background: var(--onyx);
+  background: var(--bg-card-home-small);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -390,7 +395,7 @@ main {
   border-radius: 0 15px;
   font-size: 13px;
   color: var(--orange-yellow-crayola);
-  background: var(--border-gradient-onyx);
+  background: var(--bg-card-home-small);
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -402,19 +407,19 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--bg-gradient-jet);
+  background: var(--bg-card-home-small);
   transition: var(--transition-1);
   z-index: -1;
 }
 
 .info_more-btn:hover,
 .info_more-btn:focus {
-  background: var(--bg-gradient-yellow-1);
+  background: var(--bg-card-home-small);
 }
 
 .info_more-btn:hover::before,
 .info_more-btn:focus::before {
-  background: var(--bg-gradient-yellow-2);
+  background: var(--bg-card-home-small);
 }
 
 .info_more-btn span {
@@ -498,7 +503,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: var(--bg-card-home-small);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -591,7 +596,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--bg-card-home-small);
   border-radius: inherit;
   z-index: -1;
 }
@@ -897,7 +902,7 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
-
+/* garis timeline */
 .timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;
@@ -905,7 +910,7 @@ main {
   left: -30px;
   width: 1px;
   height: calc(100% + 50px);
-  background: var(--jet);
+  background:  var(--text-gradient-yellow);
 }
 
 .timeline-item::after {
@@ -917,7 +922,7 @@ main {
   width: 6px;
   background: var(--text-gradient-yellow);
   border-radius: 50%;
-  box-shadow: 0 0 0 4px var(--jet);
+  box-shadow: 0 0 0 4px hsl(243.38deg 68.55% 13.79%);
 }
 
 .timeline-text {

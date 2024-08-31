@@ -31,8 +31,6 @@ export default function Experience({isHide = false}) {
                     <li>7. Built Android apps with React Native and state management using Redux-Thunk</li>
                     <li>8. Building and bug fixing Android application Sitollaut</li>
                 </ol>
-
-
             </li>
 
             <li className="timeline-item">

@@ -1,5 +1,5 @@
 import {faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown, faEnvelope, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Aside() {
@@ -21,11 +21,11 @@ export default function Aside() {
                 <button className="info_more-btn" data-sidebar-btn>
                     <span>Show Contacts</span>
 
-                    <ion-icon name="chevron-down"></ion-icon>
+                    {/* <ion-icon name="chevron-down"></ion-icon> */}
+                    <FontAwesomeIcon name="chevron-down" icon={faChevronDown} />
                 </button>
 
             </div>
-
             <div className="sidebar-info_more-portofolio">
 
                 <div className="separator"></div>
