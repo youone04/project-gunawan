@@ -37,7 +37,7 @@ export default function Doing({isHide = false}) {
               <h4 className="service-item-title">React Js Developer</h4>
 
               <p className="service-item-text">
-                High-quality development of sites at the professional level.
+              "Building a website with the React JS library in a professional manner and with clean code."
               </p>
             </div>
 
@@ -53,7 +53,7 @@ export default function Doing({isHide = false}) {
               <h4 className="service-item-title">React Native Developer</h4>
 
               <p className="service-item-text">
-                Professional development of applications for Android.
+              "Building a android with the React Native library in a professional manner and with clean code."
               </p>
             </div>
 
