@@ -13,6 +13,6 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base: "/slicing-project/",
+  base: "/slicing-project",
 
 });
