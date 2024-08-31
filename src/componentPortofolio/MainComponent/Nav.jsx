@@ -1,10 +1,11 @@
 import { useState } from 'react';
-
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import Resume from '../contentTabs/Resume/Resume';
 import Portfolio from '../contentTabs/Portofolio/Portofolio';
 import MainAbout from '../contentTabs/About';
+import MainResume from '../contentTabs/Resume';
+// import Kontak from '../contentTabs/Kontak/Kontak';
+// import Blog from '../contentTabs/Blog/Blog';
 export default function Nav() {
   const [key, setKey] = useState('about');
 
@@ -20,12 +21,12 @@ export default function Nav() {
         <MainAbout/>
       </Tab>
       <Tab eventKey="resume" title="Resume" className="navbar-item">
-       <Resume/>
+       <MainResume/>
       </Tab>
       <Tab eventKey="portofolio" title="Portofolio" className="navbar-item">
        <Portfolio/>
       </Tab>
-      {/* <Tab eventKey="kontak" title="Kontak" className="navbar-item">
+      {/* <Tab hidden eventKey="kontak" title="Kontak" className="navbar-item">
        <Kontak/>
       </Tab>
       <Tab eventKey="blog" title="Blog" className="navbar-item">
