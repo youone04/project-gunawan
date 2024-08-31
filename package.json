@@ -1,9 +1,12 @@
 {
+  "homepage": "https://youone04.github.io/slicing-project",
   "name": "nexcent",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -17,6 +20,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.0",
+    "gh-pages": "^6.1.1",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
