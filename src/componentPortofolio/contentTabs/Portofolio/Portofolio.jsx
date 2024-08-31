@@ -6,7 +6,7 @@ export default function Portfolio() {
         <article className="portfolio active" data-page="portfolio">
 
         <header>
-          <h2 className="h2 article-title" style={{ color: 'white' }}>Portfolio</h2>
+          <h2 className="h2 article-title" style={{ color: 'white' }}>Portofolio</h2>
         </header>
 
         <section className="projects">
