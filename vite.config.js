@@ -12,6 +12,6 @@ export default defineConfig({
       '@ComponentNotFound': path.resolve(__dirname, './src/ComponentNotFound'),
     },
   },
+  // base: "/slicing-project",
   plugins: [react()],
-  base: "/slicing-project",
 });
