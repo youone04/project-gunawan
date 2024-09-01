@@ -5,16 +5,44 @@
     padding: 0;
     gap: 40px;
 }
+.menu-positivius{
+    visibility: visible;
+}
+@media (min-width: 450px) {
+    .menu-positivius{
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 580px) {
+    .menu-positivius{
+        visibility: hidden;
+    }
+}
+
+
 /* MD */
 @media (max-width: 768px) {
     .menu-positivius{
-        display: none;
+        visibility: hidden;
     }
 }
 
 /* LG */
 @media (max-width: 992px) {
+    /* .menu-positivius{
+        visibility: hidden;
+    } */
+}
+
+@media (min-width: 1024px) {
     .menu-positivius{
-        display: none;
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1250px) {
+    .menu-positivius{
+        visibility: visible;
     }
 }

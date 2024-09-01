@@ -16,7 +16,9 @@
     background-color: var(--black-color);
     color: var(--white-color);
     border-radius: 45px;
+    
 }
+
 .vertical-to-horizontal {
     transform: rotate(90deg);
     transform-origin: top left; /* Adjust origin as needed */
@@ -31,3 +33,105 @@
     transform: rotate(-45deg);
     font-size: 20px;
 }
+.center-component{
+    justify-content: left;
+    align-items: start;
+}
+.title-case-study-positivus{
+    display: flex;
+}
+.isvisible-desktop{
+    display: flex;
+}
+.isvisible-mobile{
+    display: none;
+}
+@media (max-width: 375px) {
+    .center-component{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .desc-case-study{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .center-component{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .desc-case-study{
+        width: 100%;
+    }
+}
+@media (max-width: 580px) {
+    .center-component{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .desc-case-study{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 768px) {
+    .center-component{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .desc-case-study{
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .center-component{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .desc-case-study{
+        width: 100%;
+    }
+    .isvisible-desktop{
+        display: none;
+    }
+    .isvisible-mobile{
+        display: flex;
+        overflow: hidden;
+        overflow-x: scroll;
+        scrollbar-width: auto;
+        gap: 20px;
+        padding-bottom: 10px;
+
+
+    }
+    .isvisible-mobile::-webkit-scrollbar {
+        width: 1px;
+    }
+     
+    .isvisible-mobile ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+        background: #666;
+    }
+     
+    .isvisible-mobile::-webkit-scrollbar-thumb {
+        background: gray;
+        border-radius: 10px;
+    }
+    .section-card-case-study{
+        width: 485px;
+    }
+
+}
+@media (max-width: 1250px) {}

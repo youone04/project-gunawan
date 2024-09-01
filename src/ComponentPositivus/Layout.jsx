@@ -13,16 +13,16 @@ import Footer from "./Footer";
 export default function Layout({children}) {
     return(
         <Container>
-        <Header/>
-        <Banner/>
-        <LogoList/>
+        {/* <Header/> */}
+        {/* <Banner/> */}
+        {/* <LogoList/> */}
         {/* <Services/> */}
         <CaseStudy/>
-        <OnWorkingProcess/>
-        <Team/>
-        <Testimonials/>
-        <ContactUs/>
-        <Footer/>
+        {/* <OnWorkingProcess/> */}
+        {/* <Team/> */}
+        {/* <Testimonials/> */}
+        {/* <ContactUs/> */}
+        {/* <Footer/> */}
         </Container>
 
     )
