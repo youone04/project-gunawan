@@ -8,6 +8,7 @@ import Team from "@ComponentPositivus/Team";
 import OnWorkingProcess from "@ComponentPositivus/OnWorkingProcess";
 import Testimonials from "@ComponentPositivus/Testimonials";
 import ContactUs from "@ComponentPositivus/ContactUs";
+import Footer from "./Footer";
 
 export default function Layout({children}) {
     return(
@@ -15,12 +16,14 @@ export default function Layout({children}) {
         <Header/>
         <Banner/>
         <LogoList/>
-        <Services/>
+        {/* <Services/> */}
         <CaseStudy/>
         <OnWorkingProcess/>
         <Team/>
         <Testimonials/>
         <ContactUs/>
+        <Footer/>
         </Container>
+
     )
 }

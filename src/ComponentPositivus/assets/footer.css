@@ -1,0 +1,37 @@
+.card-footer-positivus{
+    background-color: var(--black-color) !important;
+    color: white !important;
+}
+.menu-footer-positivus {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 2fr)); /* Sesuaikan minmax sesuai kebutuhan */
+    justify-content: space-between; /* Menyebarkan item secara merata */
+    align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+    text-align: center; /* Menyelaraskan teks di dalam elemen <p> */
+}
+.icon-footer-positivus {
+    display: flex;
+    justify-content: end; /* Pastikan item grid berada di sisi kiri kontainer */
+    gap: 20px;
+}
+.contact-us-footer-positivius{
+    border-radius: 10px;
+    padding: 6px;
+    color: black;
+}
+.card-footer-positivius{
+    background-color: #292A32;
+    min-height: 184px;
+    border-radius: 14px;
+    opacity: 0.9;
+}
+.card-child-footer-positivius{
+    gap: 10px;
+}
+.card-child-footer-positivius input{
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}

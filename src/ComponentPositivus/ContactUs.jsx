@@ -14,13 +14,13 @@ export default function ContactUs() {
             </Row>
             <Card className="p-5 card-contact-us">
                 <div className="d-flex" style={{ gap: 20 }}>
-                    <div className="d-flex justify-content-center" style={{ gap: 10 }}>
-                        <input type="radio" />
+                    <div className="d-flex justify-content-center" style={{ gap: 5, width: '10%' }}>
+                        <input type="radio" className="radio-positivus"/>
                         <p className="mt-3">Say Hy</p>
                     </div>
 
-                    <div className="d-flex" style={{ gap: 10 }}>
-                        <input type="radio" />
+                    <div className="d-flex" style={{ gap: 5, width: '10%' }}>
+                        <input type="radio" className="radio-positivus-2" />
                         <p className="mt-3">Get a Qoute</p>
                     </div>
 
