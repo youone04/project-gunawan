@@ -18,7 +18,7 @@ export default function Layout({children}) {
         {/* <LogoList/> */}
         {/* <Services/> */}
         <CaseStudy/>
-        {/* <OnWorkingProcess/> */}
+        <OnWorkingProcess/>
         {/* <Team/> */}
         {/* <Testimonials/> */}
         {/* <ContactUs/> */}

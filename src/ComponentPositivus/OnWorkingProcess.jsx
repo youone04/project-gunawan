@@ -78,10 +78,10 @@ export default function OnWorkingProcess() {
     return (
         <Col className="mt-5">
             <Row>
-                <Col sm={12} lg={4}>
+                <Col sm={12} lg={4} className="center-component">
                     <h2 className="bg-text">Our Working Process</h2>
                 </Col>
-                <Col sm={12} lg={8}>
+                <Col sm={12} lg={8} className="center-component">
                     <p className="desc">
                         Step-by-Step Guide to Achieving Your Business Goals
                     </p>
