@@ -19,7 +19,7 @@ export default function Layout({children}) {
         {/* <Services/> */}
         <CaseStudy/>
         <OnWorkingProcess/>
-        {/* <Team/> */}
+        <Team/>
         {/* <Testimonials/> */}
         {/* <ContactUs/> */}
         {/* <Footer/> */}

@@ -52,11 +52,11 @@ export default function Team() {
     return (
         <Col className='mt-5'>
             <Row>
-                <Col sm={12} lg={2}>
+                <Col sm={12} lg={2} className='center-component'>
                     <h2 className='bg-text'>Team</h2>
                 </Col>
 
-                <Col sm={12} lg={10}>
+                <Col sm={12} lg={10} className='center-component'>
                     <p className='desc-team'>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
                 </Col>
             </Row>
@@ -65,7 +65,7 @@ export default function Team() {
                 {
                     content.map((item, index) => {
                         return (
-                            <Col key={index} sm={12} lg={4} className='mt-4'>
+                            <Col key={index} sm={12} md={6} lg={4} className='mt-4'>
                                 <Card className='p-4 box-shadow-mod card-team'>
                                     <Card.Title>
                                         <div className='d-flex justify-content-between'>
@@ -91,7 +91,7 @@ export default function Team() {
                     })
                 }
             </Row>
-            <Col className='d-flex justify-content-end mt-5'>
+            <Col className='d-flex container-see-all mt-5'>
                 <button className='btn-see-all'>See all team</button>
             </Col>
         </Col>
