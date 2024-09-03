@@ -6,7 +6,7 @@ export default function Banner() {
         <Row style={{ marginTop: 50 }}>
             <Col xs={{span: 12, order: 2}} sm={{span:12, order: 2}} md={{span:12, order: 2}} lg={{span: 6, order:1}}>
                 <div className='desc-positivus'>
-                    <h1>Navigating the digital landscape for success</h1>
+                    <h1 className='title-positivus'>Navigating the digital landscape for success</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus iusto nesciunt,
                         aperiam neque commodi sint velit. Reiciendis voluptatum, nobis blanditiis
                         eius, laboriosam voluptatibus commodi, quidem neque modi obcaecati aspernatur.
@@ -15,6 +15,7 @@ export default function Banner() {
                 </div>
             </Col>
             <Col xs={{span: 12, order: 1}} sm={{span:12, order: 1}} md={{span:12,order: 1}} lg={{span: 6,order: 2}}>
+            <h1 className='title-positivus-2'>Navigating the digital landscape for success</h1>
                 <img src={ilustrastion} alt="ilustrastion" className='ilustration' />
             </Col>
         </Row>

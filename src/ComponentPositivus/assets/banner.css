@@ -29,34 +29,16 @@
     height: 515px;
     width: 600.46px;
 }
-
-/* MD */
-@media (max-width: 768px) {
-    .desc-positivus {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 17px;
-
-    }
-
-    .desc-positivus h1 {
-        width: 100%;
-    }
-
-    .desc-positivus p {
-        font-size: 20px;
-        width: 100%;
-    }
-    .ilustration {
-        height: 515px;
-        width: 100%;
-    }
-    .btn-positivus{
-        width: 100%;
-    }
+.title-positivus{
+    font-size: 18px;
+    display: block;
 }
+.title-positivus-2{
+    display: none;
+}
+
+@media (min-width: 1250px) {}
+@media (min-width: 1024px) {}
 
 /* LG */
 @media (max-width: 992px) {
@@ -83,5 +65,48 @@
     }
     .btn-positivus{
         width: 100%;
+        text-align: center;
     }
 }
+/* MD */
+@media (max-width: 768px) {
+    .desc-positivus {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+
+    }
+
+    .desc-positivus h1 {
+        width: 100%;
+    }
+
+    .desc-positivus p {
+        font-size: 20px;
+        width: 100%;
+    }
+    .ilustration {
+        height: 515px;
+        width: 100%;
+    }
+    .btn-positivus{
+        width: 100%;
+    }
+    .title-positivus{
+        display: none;
+    }
+    .title-positivus-2{
+        font-size: 30px;
+        display: block;
+    }
+}
+@media (min-width: 580px) {
+   .btn-positivus{
+    text-align: center;
+   }
+}
+@media (min-width: 450px) {}
+
+
