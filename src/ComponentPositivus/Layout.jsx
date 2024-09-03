@@ -15,12 +15,12 @@ export default function Layout({children}) {
         <Container>
         {/* <Header/> */}
         <Banner/>
-        {/* <LogoList/> */}
+        <LogoList/>
         {/* <Services/> */}
         <CaseStudy/>
         <OnWorkingProcess/>
         <Team/>
-        {/* <Testimonials/> */}
+        <Testimonials/>
         {/* <ContactUs/> */}
         {/* <Footer/> */}
         </Container>

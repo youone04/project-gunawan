@@ -40,7 +40,7 @@ export default function Testimonials() {
         arrows: true,
         responsive: [
           {
-            breakpoint: 768, // Mobile breakpoint
+            breakpoint: 1024, // Mobile breakpoint
             settings: {
               slidesToShow: 1,
               centerMode: false,
