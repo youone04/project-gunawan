@@ -21,7 +21,7 @@ export default function Layout({children}) {
         <OnWorkingProcess/>
         <Team/>
         <Testimonials/>
-        {/* <ContactUs/> */}
+        <ContactUs/>
         {/* <Footer/> */}
         </Container>
 

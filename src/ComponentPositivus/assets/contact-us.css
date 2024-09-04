@@ -29,3 +29,42 @@
 .radio-positivus-2{
     width: 20%;
 }
+.image-contact-us-positivus{
+    display: block;
+}
+.radio-positivus{
+    gap: 10px;
+    width: 10%;
+}
+@media (max-width: 1250px) {
+    .image-contact-us-positivus{
+        display: none;
+    }
+    .radio-positivus{
+        gap: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .image-contact-us-positivus{
+        display: none;
+    }
+    .radio-positivus{
+        gap: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .desc-contact-us{
+        width: 100%;
+    }
+    .image-contact-us-positivus{
+        display: none;
+    }
+    .radio-positivus{
+        gap: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 580px) {}
+@media (max-width: 450px) {}
