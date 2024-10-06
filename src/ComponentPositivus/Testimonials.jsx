@@ -50,12 +50,12 @@ export default function Testimonials() {
         ]
       };
     return (
-        <Col>
+        <Col className='mt-3'>
             <Row>
-                <Col sm={12} lg={2}>
+                <Col sm={12} lg={2} className='center-component'>
                     <h2 className='bg-text-testimonial'>Testimonials</h2>
                 </Col>
-                <Col sm={12} lg={10}>
+                <Col sm={12} lg={10} className='center-component'>
                     <p className='desc-team'>Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
                 </Col>
             </Row>

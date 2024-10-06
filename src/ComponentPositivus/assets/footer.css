@@ -18,6 +18,8 @@
     border-radius: 10px;
     padding: 6px;
     color: black;
+    width: 150px;
+    font-size: 20px;
 }
 .card-footer-positivius{
     background-color: #292A32;
@@ -27,6 +29,7 @@
 }
 .card-child-footer-positivius{
     gap: 10px;
+    display: flex;
 }
 .card-child-footer-positivius input{
     border: solid 1px white;
@@ -34,4 +37,73 @@
     padding: 10px;
     color: white;
     margin-top: 20px;
+}
+.continer-footer-positivus{
+    padding: 30px;
+}
+.icon-footer-positivus2{
+    visibility: hidden;
+}
+
+
+@media (max-width: 1250px) {
+   
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px) {
+   
+}
+@media (max-width: 580px) {
+    .menu-footer-positivus {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); /* Sesuaikan minmax sesuai kebutuhan */
+        justify-content: space-between; /* Menyebarkan item secara merata */
+        align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+        text-align: center; /* Menyelaraskan teks di dalam elemen <p> */
+    }
+}
+@media (max-width: 450px) {
+    .menu-footer-positivus {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); /* Sesuaikan minmax sesuai kebutuhan */
+        justify-content: center; /* Menyebarkan item secara merata */
+        align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+        text-align: center; /* Menyelaraskan teks di dalam elemen <p> */
+        margin-top: 30px;
+    }
+    .img-footer-positivus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-footer-positivus{
+        display: none;
+    }
+    .continer-footer-positivus{
+        padding: 0;
+    }
+    .container-contact-us-footer-positivus{
+        display: flex;
+        justify-content: center;
+    }
+    .contact-us-footer-positivius{
+        width: 100px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .card-child-footer-positivius{
+        gap: 10px;
+        display: block;
+    }
+    .icon-footer-positivus2{
+        visibility: visible;
+    }
+    .icon-footer-positivus-child-2{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+    }
 }

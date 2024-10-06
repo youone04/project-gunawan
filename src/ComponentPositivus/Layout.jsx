@@ -22,7 +22,7 @@ export default function Layout({children}) {
         <Team/>
         <Testimonials/>
         <ContactUs/>
-        {/* <Footer/> */}
+        <Footer/>
         </Container>
 
     )
